@@ -51,6 +51,10 @@ test("calculates exponentiation", () => {
   assert.equal(calculate(9, "**", 0.5), 3);
 });
 
+test("calculates the power operation", () => {
+  assert.equal(calculate(4, "**", 3), 64);
+});
+
 test("calculates square roots", () => {
   assert.equal(calculate(9, "sqrt"), 3);
   assert.equal(calculate(0, "sqrt"), 0);
